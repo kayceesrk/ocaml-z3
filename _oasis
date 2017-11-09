@@ -13,7 +13,6 @@ XOCamlbuildExtraArgs: -cflags -w,-40,-short-paths
 Library z3
   Path: lib
   BuildDepends:
-    ppx_deriving.std
   InternalModules:
     Smtlib_syntax,
     Smtlib_parser,
